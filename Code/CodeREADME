@@ -1,0 +1,5 @@
+README for Code
+1. post_scraper.py scrapes relevant post related to policing from a specific subreddit and stores it in a csv file
+2. comment_scraper.py scrapes the comment from relevant post(previosuly scraped) and stores it in a csv file
+3. commentCleaner.py cleans the comment as explained in the methodology section of the study, and stores it in a csv file
+4. sentiment.py adds the sentiment scores from both VADER and Textblob in the previously cleaned comment.
